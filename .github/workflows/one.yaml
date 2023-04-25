@@ -4,6 +4,8 @@ jobs:
   one:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout
+        uses: actions/checkout@v3
       - name: dependency
         run: npm install
       - name: lint
