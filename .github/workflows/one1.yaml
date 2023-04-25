@@ -1,4 +1,4 @@
-name: lint test deploy
+name: separate jobs
 on: [push]
 jobs:
   lint:
