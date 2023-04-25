@@ -8,5 +8,7 @@ jobs:
         run: npm run lint
       - name: dependency
         run: npm ci
+      - name: test
+        run: npm run test
       - name: deploy
         run: npm run build
