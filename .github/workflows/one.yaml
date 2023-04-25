@@ -4,10 +4,10 @@ jobs:
   one:
     runs-on: ubuntu-latest
     steps:
-      - name: lint
-        run: npm run lint
       - name: dependency
         run: npm ci
+      - name: lint
+        run: npm run lint
       - name: test
         run: npm run test
       - name: deploy
